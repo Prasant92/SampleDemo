@@ -11,7 +11,7 @@ public class AlternatesInArray {
             arr[i] = sc.nextInt();
         }
         getAlternatesFunc(arr);
-                sc.close();
+        sc.close();
     }
         
     public static ArrayList<Integer> getAlternatesFunc(int arr[]) {
